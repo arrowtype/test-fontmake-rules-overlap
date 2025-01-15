@@ -13,7 +13,7 @@ Currently, generating from a Glyphs document to static fonts has unexpected resu
 1. glyphsLib creates more rules than strictly necessary: it creates one rule for each area mentioned in any bracket layer, then places all glyphs with alternates in that area into each rule. This is slightly redundant, but shouldn’t cause a failure in the build. 
 2. FontMake inteprets redudant rules in a way that toggles them off and on, in static font builds. Variable font builds work well.
 
-![diagram of the problem]("img/test-fontmake-rules-overlap-diagram.png")
+![diagram of the problem](img/test-fontmake-rules-overlap-diagram.png)
 
 
 ## Reproduction
