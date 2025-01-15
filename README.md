@@ -1,6 +1,8 @@
-# FontMake issue
+# FontMake /ufo2ft issue
 
-A reproduction case for a FontMake (and partly glyphsLib?) issue.
+A reproduction case for a FontMake (but really ufo2ft) issue (and partly also an issue in glyphsLib?).
+
+Core issue: https://github.com/googlefonts/ufo2ft/issues/852
 
 Font outlines based on Open Sans (https://github.com/googlefonts/opensans).
 
@@ -11,7 +13,7 @@ It is common to up “bracket layers” in Glyphs, in order to create alternate 
 Currently, generating from a Glyphs document to static fonts has unexpected results, where certain fonts will have the wrong version of a glyph. This is partially caused by two issues:
 
 1. glyphsLib creates more rules than strictly necessary: it creates one rule for each area mentioned in any bracket layer, then places all glyphs with alternates in that area into each rule. This is slightly redundant, but shouldn’t cause a failure in the build. 
-2. FontMake inteprets redudant rules in a way that toggles them off and on, in static font builds. Variable font builds work well.
+2. ufo2ft inteprets redudant rules in a way that toggles them off and on, in static font builds. Variable font builds work well.
 
 ![diagram of the problem](img/test-fontmake-rules-overlap-diagram.png)
 
