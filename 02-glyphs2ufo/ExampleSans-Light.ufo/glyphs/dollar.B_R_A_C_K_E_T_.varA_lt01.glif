@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dollar.BRACKET.varAlt01" format="2">
+  <advance width="1125"/>
+  <outline>
+    <contour>
+      <point x="492" y="-20" type="curve" smooth="yes"/>
+      <point x="835" y="-20"/>
+      <point x="1014" y="133"/>
+      <point x="1014" y="377" type="curve" smooth="yes"/>
+      <point x="1014" y="622"/>
+      <point x="846" y="693"/>
+      <point x="592" y="788" type="curve" smooth="yes"/>
+      <point x="415" y="854"/>
+      <point x="236" y="907"/>
+      <point x="236" y="1106" type="curve" smooth="yes"/>
+      <point x="236" y="1291"/>
+      <point x="374" y="1393"/>
+      <point x="592" y="1393" type="curve" smooth="yes"/>
+      <point x="700" y="1393"/>
+      <point x="817" y="1368"/>
+      <point x="938" y="1317" type="curve"/>
+      <point x="975" y="1405" type="line"/>
+      <point x="858" y="1456"/>
+      <point x="720" y="1483"/>
+      <point x="598" y="1483" type="curve" smooth="yes"/>
+      <point x="319" y="1483"/>
+      <point x="129" y="1343"/>
+      <point x="129" y="1097" type="curve" smooth="yes"/>
+      <point x="129" y="867"/>
+      <point x="308" y="785"/>
+      <point x="524" y="707" type="curve" smooth="yes"/>
+      <point x="755" y="624"/>
+      <point x="905" y="565"/>
+      <point x="905" y="377" type="curve" smooth="yes"/>
+      <point x="905" y="194"/>
+      <point x="770" y="74"/>
+      <point x="490" y="74" type="curve" smooth="yes"/>
+      <point x="376" y="74"/>
+      <point x="217" y="94"/>
+      <point x="111" y="141" type="curve"/>
+      <point x="111" y="39" type="line"/>
+      <point x="209" y="-3"/>
+      <point x="378" y="-20"/>
+    </contour>
+    <contour>
+      <point x="543" y="1421" type="line"/>
+      <point x="645" y="1421" type="line"/>
+      <point x="661" y="1689" type="line"/>
+      <point x="559" y="1689" type="line"/>
+    </contour>
+    <contour>
+      <point x="564" y="22" type="line"/>
+      <point x="462" y="22" type="line"/>
+      <point x="449" y="-212" type="line"/>
+      <point x="551" y="-212" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>Jan 15, 25 at 12:28</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2025/01/15 17:33:06</string>
+    </dict>
+  </lib>
+</glyph>
