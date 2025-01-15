@@ -45,22 +45,22 @@ The above issues come from a `rules` element like this:
 
 The “working” example comes from a `rules` element like this (with redundant rules removed):
 
-```diff
+```xml
 <rules>
     <rule name="BRACKET.Weight_650_800">
         <conditionset>
         <condition name="Weight" minimum="650" maximum="800"/>
         </conditionset>
         <sub name="Oslash" with="Oslash.BRACKET.varAlt01"/>
--       <sub name="baht" with="baht.BRACKET.varAlt01"/>
--       <sub name="dollar" with="dollar.BRACKET.varAlt01"/>
+        <!-- baht rule removed -->
+        <!-- dollar rule removed -->
     </rule>
     <rule name="BRACKET.Weight_550_800">
         <conditionset>
         <condition name="Weight" minimum="550" maximum="800"/>
         </conditionset>
         <sub name="baht" with="baht.BRACKET.varAlt01"/>
--       <sub name="dollar" with="dollar.BRACKET.varAlt01"/>
+        <!-- dollar rule removed -->
     </rule>
     <rule name="BRACKET.Weight_450_800">
         <conditionset>
